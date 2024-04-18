@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wizarding World®️</title>
+    <style>
+      nav {
+        /* height: 100px; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: red; */
+        padding: 0.5vw 0.3vw;
+      }
+      span {
+        color: #ea1538;
+      }
+      nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        /* font-size: 0.5em; */
+        padding: 10px 20px;
+      }
+
+      nav ul li a {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        color: #fbfafa;
+        font-weight: bold;
+        position: relative;
+        text-transform: uppercase;
+      }
+
+      nav ul li a:hover {
+        color: rgb(126, 109, 109);
+        transition: 0.3s;
+        text-shadow: 2px 2px 10px rgb(229, 193, 127);
+      }
+
+      .cssbuttons-io-button {
+        background: transparent;
+        color: white;
+        font-family: inherit;
+        padding: 0.35em;
+        padding-left: 1.2em;
+        font-size: 17px;
+        font-weight: 500;
+        border-radius: 0.9em;
+        border: none;
+        letter-spacing: 0.05em;
+        display: flex;
+        align-items: center;
+        box-shadow: inset 0 0 1.6em -0.6em #070707;
+        overflow: hidden;
+        position: relative;
+        height: 2.8em;
+        padding-right: 3.3em;
+        cursor: pointer;
+      }
+
+      .cssbuttons-io-button .icon {
+        background: white;
+        margin-left: 1em;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2.2em;
+        width: 2.2em;
+        border-radius: 0.7em;
+        box-shadow: 0.1em 0.1em 0.6em 0.2em #0a0a0a;
+        right: 0.3em;
+        transition: all 0.3s;
+      }
+
+      .cssbuttons-io-button:hover .icon {
+        width: calc(100% - 0.6em);
+        /* box-shadow: 3px 3px 10px rgb(231, 197, 61); */
+        /* color: #ea1538; */
+        background-color: rgb(126, 109, 109);
+      }
+
+      .cssbuttons-io-button .icon svg {
+        width: 1.1em;
+        transition: transform 0.3s;
+        color: #161617;
+      }
+
+      .cssbuttons-io-button:hover .icon svg {
+        transform: translateX(0.1em);
+      }
+
+      .cssbuttons-io-button:active .icon {
+        transform: scale(0.95);
+      }
+
+      body {
+        background-image: url(./resources/wallpaperflare.com_wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+
+      div h1 {
+        font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+          sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        letter-spacing: 0.05556em;
+        color: white;
+        text-align: center;
+        margin-top: 120px;
+        animation: name duration timing-function delay iteration-count direction
+          fill-mode;
+      }
+
+      div h3 {
+        font-family: Sofia Pro, Helvetica, ヒラギノ角ゴ Pro W3,
+          Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック,
+          MS PGothic, sans-serif;
+        font-size: 1.33333em;
+        line-height: 1.5;
+        color: #dfdbd9;
+        text-align: center;
+        margin-top: 1.66667em;
+      }
+      .container:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
+        box-shadow: 2px 2px 30px yellow;
+        filter: contrast();
+      }
+    </style>
+    <link
+    rel="shortcut icon"
+    href="/resources/favicon.ico"
+    type="image/x-icon"
+  />
+  </head>
+
+  <body>
+    <nav>
+      <a href="./wizard.html"
+        ><img
+          src="/resources/Wizarding_World_Logo.webp"
+          alt=""
+          style="height: 100px; width: 150px"
+      /></a>
+
+      <ul>
+        <li><a href="/about/about.html">About</a></li>
+        <li><a href="/about/contactussssss/index.html">Contact Us</a></li>
+        <li><a href="/service/index.html">J.K. Rowling Archive</a></li>
+      </ul>
+
+      <!-- button style liya hai uiverse se -->
+
+      <a
+        href="/resources/loginAndsignup/login.html"
+        style="text-decoration: none; color: white"
+      >
+        <button class="cssbuttons-io-button">
+          Get started
+          <div class="icon">
+            <svg
+              height="24"
+              width="24"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div></button
+      ></a>
+    </nav>
+    <div>
+      <h1>J.K. Rowling Originals</h1>
+      <h3>
+        Explore the inner workings of the wizarding world with a collection of
+        writing from J.K. Rowling
+      </h3>
+      <h2
+        style="
+          color: rgb(126, 109, 109);
+          font-size: 40px;
+          font-weight: bold;
+          margin-left: 100px;
+        "
+      >
+        Books
+      </h2>
+    </div>
+    <div>
+      <div
+        class="container"
+        style="
+          height: 400px;
+          width: 300px;
+          margin-left: 100px;
+          display: inline-block;
+        "
+      >
+        <a href="https://amzn.in/d/7mWRmaE"
+          ><img
+            src="https://rukminim2.flixcart.com/image/850/1000/xif0q/book/d/d/6/harry-potter-and-the-sorcerer-s-stone-harry-potter-book-1-original-imagmxqrc4ndegcw.jpeg?q=90&crop=false"
+            alt=""
+            height="400px"
+            width="300px"
+        /></a>
+      </div>
+      <div
+        class="container"
+        style="
+          height: 400px;
+          width: 300px;
+          margin-left: 30px;
+          display: inline-block;
+        "
+      >
+        <a href="https://amzn.in/d/0Xjtskb"
+          ><img
+            src="https://m.media-amazon.com/images/I/91WqeCn-PxL._AC_UF1000,1000_QL80_.jpg"
+            alt=""
+            height="400px"
+            width="300px"
+        /></a>
+      </div>
+      <div
+        class="container"
+        style="
+          height: 400px;
+          width: 300px;
+          margin-left: 30px;
+          display: inline-block;
+        "
+      >
+        <a href="https://amzn.in/d/1UHuS1t"
+          ><img
+            src="https://m.media-amazon.com/images/I/512A7JQMGCL._AC_UF1000,1000_QL80_.jpg"
+            alt=""
+            height="400px"
+            width="300px"
+        /></a>
+      </div>
+      <div
+        class="container"
+        style="
+          height: 400px;
+          width: 300px;
+          margin-left: 30px;
+          display: inline-block;
+        "
+      >
+        <a href="https://amzn.in/d/9UVwbIW"
+          ><img
+            src="https://m.media-amazon.com/images/I/81aTxTMB33L._AC_UF1000,1000_QL80_.jpg"
+            alt=""
+            height="400px"
+            width="300px"
+        /></a>
+      </div>
+    </div>
+    <div style="margin-top: 50px">
+      <div
+        class="container"
+        style="
+          height: 400px;
+          width: 300px;
+          margin-left: 100px;
+          display: inline-block;
+        "
+      >
+        <a href="https://amzn.in/d/gCG2SVJ"
+          ><img
+            src="https://m.media-amazon.com/images/I/81Budsu1XBL._AC_UF1000,1000_QL80_.jpg"
+            alt=""
+            height="400px"
+            width="300px"
+        /></a>
+      </div>
+      <div
+        class="container"
+        style="
+          height: 400px;
+          width: 300px;
+          margin-left: 30px;
+          display: inline-block;
+        "
+      >
+        <a href="https://amzn.in/d/4pzExu3"
+          ><img
+            src="https://m.media-amazon.com/images/I/61sXBXmAWML._AC_UF1000,1000_QL80_.jpg"
+            alt=""
+            height="400px"
+            width="300px"
+        /></a>
+      </div>
+      <div
+        class="container"
+        style="
+          height: 400px;
+          width: 300px;
+          margin-left: 30px;
+          display: inline-block;
+        "
+      >
+        <a href="https://amzn.in/d/hmPKUtK"
+          ><img
+            src="https://m.media-amazon.com/images/I/51-GvIoiqYL.jpg"
+            alt=""
+            height="400px"
+            width="300px"
+        /></a>
+      </div>
+      <div
+        class="container"
+        style="
+          height: 400px;
+          width: 300px;
+          margin-left: 30px;
+          display: inline-block;
+        "
+      >
+        <a href="https://amzn.in/d/hmPKUtK"
+          ><img
+            src="https://m.media-amazon.com/images/I/51-GvIoiqYL.jpg"
+            alt=""
+            height="400px"
+            width="300px"
+        /></a>
+      </div>
+    </div>
+    <div style="margin-left: 100px">
+      <h2 style="color: rgb(232, 239, 171); font-weight: bold; font-size: 50px">
+        About Me
+      </h2>
+      <p style="color: whitesmoke; font-size: 30px; margin-right: 100px">
+        Joanne Rowling was born on 31st July 1965 at Yate General Hospital near
+        Bristol, and grew up in Gloucestershire in England and in Chepstow,
+        Gwent, in south-east Wales. <br /><br />
+
+        Her father, Peter, was an aircraft engineer at the Rolls Royce factory
+        in Bristol and her mother, Anne, was a science technician in the
+        Chemistry department at Wyedean Comprehensive, where Jo herself went to
+        school. Anne was diagnosed with multiple sclerosis when Jo was a
+        teenager and died in 1990, before the Harry Potter books were published.
+        Jo also has a younger sister, Di. <br /><br />
+
+        The young Jo grew up surrounded by books. “I lived for books,’’ she has
+        said. “I was your basic common-or-garden bookworm, complete with
+        freckles and National Health spectacles.” <br /><br />
+        Jo wanted to be a writer from an early age. She wrote her first book at
+        the age of six – a story about a rabbit, called ‘Rabbit’. At just
+        eleven, she wrote her first novel – about seven cursed diamonds and the
+        people who owned them. <br /><br />
+
+        Jo studied at Exeter University, where she read so widely outside her
+        French and Classics syllabus that she clocked up a fine of £50 for
+        overdue books at the University library. Her knowledge of Classics would
+        one day come in handy for creating the spells in the Harry Potter
+        series, some of which are based on Latin. <br /><br />
+
+        Her course included a year in Paris. “I lived in Paris for a year as a
+        student,” Jo tweeted after the 2015 terrorist attacks there. “It’s one
+        of my favourite places on earth.”<br /><br />
+
+        After her degree, she moved to London and worked in a series of jobs,
+        including one as a researcher at Amnesty International. “There in my
+        little office I read hastily scribbled letters smuggled out of
+        totalitarian regimes by men and women who were risking imprisonment to
+        inform the outside world of what was happening to them.” She said later.
+        “My small participation in that process was one of the most humbling and
+        inspiring experiences of my life.”<br /><br />
+
+        Jo conceived the idea of Harry Potter in 1990 while sitting on a delayed
+        train from Manchester to London King’s Cross. Over the next five years,
+        she began to map out all seven books of the series. She wrote mostly in
+        longhand and gradually built up a mass of notes, many of which were
+        scribbled on odd scraps of paper. <br /><br />
+
+        Taking her notes with her, she moved to northern Portugal to teach
+        English as a foreign language, married Jorge Arantes in 1992 and had a
+        daughter, Jessica, in 1993. When the marriage ended later that year, she
+        returned to the UK to live in Edinburgh, with Jessica and a suitcase
+        containing the first three chapters of Harry Potter and the
+        Philosopher’s Stone. <br /><br />
+
+        In Edinburgh, Jo trained as a teacher and began teaching in the city’s
+        schools, but she continued to write in every spare moment. Having
+        completed the full manuscript, she sent the first three chapters to a
+        number of literary agents, one of whom wrote back asking to see the rest
+        of it. She says it was “the best letter I had ever received in my life.”
+        <br /><br />
+
+        The book was first published by Bloomsbury Children’s Books in June
+        1997, under the name J.K. Rowling. The “K” stands for Kathleen, her
+        paternal grandmother’s name. It was added at her publisher’s request,
+        who thought a book by an obviously female author might not appeal to the
+        target audience of young boys. <br /><br />
+
+        The book was published in the US by Scholastic under a different title
+        (again at the publisher’s request), Harry Potter and the Sorcerer’s
+        Stone, in 1998. Six further titles followed in the Harry Potter series,
+        each achieving record-breaking success. <br /><br />
+
+        In 2001, the film adaptation of the first book was released by Warner
+        Bros., and was followed by six more book adaptations, concluding with
+        the release of the eighth film, Harry Potter and the Deathly Hallows
+        Part 2, in 2011. <br /><br />
+
+        J.K. Rowling has also written two small companion volumes, which appear
+        as the titles of Harry’s school books within the novels. Fantastic
+        Beasts and Where to Find Them and Quidditch Through the Ages were
+        published in March 2001 in aid of Comic Relief. In December 2008, a
+        third companion volume, The Tales of Beedle the Bard was published in
+        aid of her international children’s charity, Lumos. <br /><br />
+
+        In 2012, J.K. Rowling’s digital company Pottermore was launched, which
+        became Wizarding World Digital in 2019. Pottermore Publishing continues
+        to be the global digital publisher of Harry Potter, Fantastic Beasts and
+        the Wizarding World. <br /><br />
+
+        Also in 2012, J.K. Rowling published her first novel for adults, The
+        Casual Vacancy (Little, Brown), which has now been translated into 44
+        languages and was adapted for TV by the BBC in 2015. <br /><br />
+
+        Under the pseudonym Robert Galbraith, J.K. Rowling also writes crime
+        novels, featuring private detective Cormoran Strike. The first of these,
+        The Cuckoo’s Calling, was published to critical acclaim in 2013, at
+        first without its author’s true identity being known. The Silkworm
+        followed in 2014, Career of Evil in 2015, Lethal White in 2018, Troubled
+        Blood in 2020, The Ink Black Heart in 2022 and The Running Grave in
+        2023. The series has also been adapted for television by the BBC and
+        HBO. <br /><br />
+
+        J.K. Rowling’s 2008 Harvard commencement speech was published in 2015 as
+        an illustrated book, Very Good Lives: The Fringe Benefits of Failure and
+        the Importance of Imagination (Sphere), and sold in aid of Lumos and
+        university-wide financial aid at Harvard. <br /><br />
+
+        In 2016, J.K. Rowling collaborated with playwright Jack Thorne and
+        director John Tiffany on an original new story for the stage. Harry
+        Potter and the Cursed Child Parts One and Two opened in London and is
+        now playing in multiple locations around the world. The script book was
+        published (Little, Brown) to mark the play’s opening in July 2016, and
+        instantly topped the bestseller lists. <br /><br />
+
+        Also in 2016, J.K. Rowling made her screenwriting debut with the film
+        Fantastic Beasts and Where to Find Them, a further extension of the
+        Wizarding World, which was released to critical acclaim in November
+        2016. This was the first in a series of new adventures featuring
+        Magizoologist Newt Scamander and set before the time of Harry Potter.
+        The second film, Fantastic Beasts: The Crimes of Grindelwald, was
+        released in 2018 and the third, Fantastic Beasts: The Secrets of
+        Dumbledore was released in 2022. <br /><br />
+
+        The screenplays were published to coincide with each film release:
+        Fantastic Beasts and Where to Find Them The Original Screenplay (2016),
+        Fantastic Beasts: The Crimes of Grindelwald The Original Screenplay
+        (2018) and Fantastic Beasts: The Secrets of Dumbledore The Complete
+        Screenplay (2022). <br /><br />
+
+        In May 2020, J.K. Rowling’s fairy tale for younger children, The
+        Ickabog, was serialised for free online for children during the Covid-19
+        pandemic in the summer of 2020, and is now published as a book
+        illustrated by children, with her royalties going to her charitable
+        trust Volant to benefit charities helping to alleviate social
+        deprivation and assist vulnerable groups, particularly women and
+        children. <br /><br />
+
+        Her latest children’s novel The Christmas Pig, a standalone adventure
+        story about a boy’s love for his most treasured thing and how far he
+        will go to find it, was published in 2021 and has been a bestseller in
+        the UK, USA and Europe. <br /><br />
+
+        J.K. Rowling has been married to Dr Neil Murray since 2001. They live in
+        Edinburgh with their son, David (born 2003) and daughter, Mackenzie
+        (born 2005). <br /><br />
+      </p>
+    </div>
+  </body>
+</html>

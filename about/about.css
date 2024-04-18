@@ -1,0 +1,431 @@
+@font-face {
+  font-family: nb;
+  src: url(./resources/NBInternationalProBoo.ttf);
+}
+@font-face {
+  font-family: chacha;
+  src: url(./resources/Rejouice-Headline.ttf);
+}
+
+
+.icon-block svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  * {
+    font-family: nb;
+  }
+
+  nav{
+    /* height: 100px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0.5vw 0.3vw;
+}
+span{
+    color: #ea1538;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    /* font-size: 0.5em; */
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    color: #fbfafa;
+    font-weight: bold;
+    position:relative;
+    text-transform:uppercase;
+}
+
+nav ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+    text-shadow: 2px 2px 10px rgb(229, 193, 127);
+}
+
+
+.cssbuttons-io-button {
+  background: transparent;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #070707;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #0a0a0a;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+  /* box-shadow: 3px 3px 10px rgb(231, 197, 61); */
+  /* color: #ea1538; */
+  background-color: #ea1538 ;
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #161617;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+  
+  .team-cards-inner-container {
+    display: flex;
+    row-gap: 1.3rem;
+    column-gap: 1.3rem;
+  }
+  
+  .text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    line-height: 25px;
+  }
+  
+  .responsive-cell-block {
+    min-height: 75px;
+  }
+  
+  .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: flex-start;
+  }
+  
+  .inner-container {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    justify-content: center;
+  }
+  
+  .section-head {
+    font-size: 60px;
+    line-height: 70px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 24px;
+    margin-left: 0px;
+  }
+  
+  .section-body {
+    
+    animation: fadeInUp 4s ease;color: white;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    animation: fadeInUp 4s ease;
+    
+  }
+  
+  .team-cards-outer-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+  
+  .img-box {
+    max-width: 130px;
+    max-height: 130px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 0px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  
+  .card {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    box-shadow: rgba(95, 95, 95, 0.1) 6px 12px 24px;
+    flex-direction: row;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  .card-container {
+    max-width: 350px;
+  }
+  
+  .card-content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .person-name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+  }
+  
+  .person-info {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  
+  .card-container {
+    max-width: 350px;
+  }
+  
+  .outer-container {
+    justify-content: center;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    
+background-image: url("https://wallpapercave.com/wp/wp5415078.jpg");}
+  
+  .person-img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  
+  @keyframes bounce {
+  
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0px);
+    }
+  
+    40% {
+      transform: translateY(-30px);
+    }
+  
+    60% {
+      transform: translateY(-15px);
+    }
+  
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0px);
+    }
+  
+    40% {
+      transform: translateY(-30px);
+    }
+  
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .team-card-container {
+      justify-content: center;
+    }
+  
+    .section-head {
+      font-size: 50px;
+      line-height: 55px;
+    }
+  
+    .img-box {
+      max-width: 109px;
+      max-height: 109px;
+    }
+  
+    .content-container {
+      padding-top: 0px;
+      padding-right: 20px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+  
+    .inner-container {
+      justify-content: space-evenly;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .inner-container {
+      margin-top: 60px;
+      margin-right: 0px;
+      margin-bottom: 60px;
+      margin-left: 0px;
+    }
+  
+    .section-body {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+  
+    .img-box {
+      margin-top: 0px;
+      margin-right: 30px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+  
+    .content-box {
+      text-align: center;
+    }
+  
+    .content-container {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 30px;
+      margin-left: 0px;
+    }
+  
+    .card-container {
+      max-width: 45%;
+    }
+  
+    .team-cards-inner-container {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .outer-container {
+      padding-top: 0px;
+      padding-right: 60px;
+      padding-bottom: 0px;
+      padding-left: 60px;
+    }
+  
+    .section-head {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  
+    .content-box {
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+  
+    .section-body {
+      font-size: 12px;
+    }
+  
+    .img-box {
+      max-width: 68px;
+      max-height: 68px;
+    }
+  
+    .person-name {
+      font-size: 14px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 1px;
+      margin-left: 0px;
+    }
+  
+    .content-box {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 46px;
+      margin-left: 0px;
+      text-align: left;
+    }
+  
+    .content-container {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+  
+    .card-container {
+      max-width: 100%;
+    }
+  }
